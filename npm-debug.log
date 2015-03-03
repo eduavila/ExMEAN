@@ -1,0 +1,216 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'body-parser@1.6',
+1 verbose cli   'method-orverride@2.1',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json reqFacil@0.0.1 No repository field.
+5 warn package.json reqFacil@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'body-parser@1.6', null ]
+8 verbose cache add name=undefined spec="body-parser@1.6" args=["body-parser@1.6",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'body-parser@1.6',
+9 verbose parsed url   path: 'body-parser@1.6',
+9 verbose parsed url   href: 'body-parser@1.6' }
+10 verbose cache add [ 'method-orverride@2.1', null ]
+11 verbose cache add name=undefined spec="method-orverride@2.1" args=["method-orverride@2.1",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'method-orverride@2.1',
+12 verbose parsed url   path: 'method-orverride@2.1',
+12 verbose parsed url   href: 'method-orverride@2.1' }
+13 verbose cache add name="body-parser" spec="1.6" args=["body-parser","1.6"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '1.6',
+14 verbose parsed url   path: '1.6',
+14 verbose parsed url   href: '1.6' }
+15 verbose addNamed [ 'body-parser', '1.6' ]
+16 verbose addNamed [ null, '>=1.6.0-0 <1.7.0-0' ]
+17 verbose cache add name="method-orverride" spec="2.1" args=["method-orverride","2.1"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '2.1',
+18 verbose parsed url   path: '2.1',
+18 verbose parsed url   href: '2.1' }
+19 verbose addNamed [ 'method-orverride', '2.1' ]
+20 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+21 silly lockFile aa1c4b9f-body-parser-1-6 body-parser@1.6
+22 verbose lock body-parser@1.6 /Users/eduardo/.npm/aa1c4b9f-body-parser-1-6.lock
+23 silly lockFile ae509df8-method-orverride-2-1 method-orverride@2.1
+24 verbose lock method-orverride@2.1 /Users/eduardo/.npm/ae509df8-method-orverride-2-1.lock
+25 silly addNameRange { name: 'body-parser',
+25 silly addNameRange   range: '>=1.6.0-0 <1.7.0-0',
+25 silly addNameRange   hasData: false }
+26 silly addNameRange { name: 'method-orverride',
+26 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
+26 silly addNameRange   hasData: false }
+27 verbose request where is /method-orverride
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id 1cb6dc12f9e2e0c9
+30 verbose url raw /method-orverride
+31 verbose url resolving [ 'https://registry.npmjs.org/', './method-orverride' ]
+32 verbose url resolved https://registry.npmjs.org/method-orverride
+33 verbose request where is https://registry.npmjs.org/method-orverride
+34 info trying registry request attempt 1 at 20:41:34
+35 http GET https://registry.npmjs.org/method-orverride
+36 verbose request where is /body-parser
+37 verbose request registry https://registry.npmjs.org/
+38 verbose url raw /body-parser
+39 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+40 verbose url resolved https://registry.npmjs.org/body-parser
+41 verbose request where is https://registry.npmjs.org/body-parser
+42 info trying registry request attempt 1 at 20:41:34
+43 verbose etag "4U91Q41SKBMFLBLVZNJ3AS7F8"
+44 http GET https://registry.npmjs.org/body-parser
+45 http 404 https://registry.npmjs.org/method-orverride
+46 verbose headers { date: 'Fri, 27 Feb 2015 00:41:35 GMT',
+46 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 verbose headers   'content-type': 'application/json',
+46 verbose headers   'cache-control': 'max-age=0',
+46 verbose headers   'content-length': '52',
+46 verbose headers   'accept-ranges': 'bytes',
+46 verbose headers   via: '1.1 varnish',
+46 verbose headers   age: '0',
+46 verbose headers   'x-served-by': 'cache-atl6223-ATL',
+46 verbose headers   'x-cache': 'MISS',
+46 verbose headers   'x-cache-hits': '0',
+46 verbose headers   'x-timer': 'S1424997695.436730,VS0,VE77',
+46 verbose headers   'keep-alive': 'timeout=10, max=50',
+46 verbose headers   connection: 'Keep-Alive' }
+47 silly registry.get cb [ 404,
+47 silly registry.get   { date: 'Fri, 27 Feb 2015 00:41:35 GMT',
+47 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=0',
+47 silly registry.get     'content-length': '52',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1424997695.436730,VS0,VE77',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 silly lockFile ae509df8-method-orverride-2-1 method-orverride@2.1
+49 silly lockFile ae509df8-method-orverride-2-1 method-orverride@2.1
+50 http 304 https://registry.npmjs.org/body-parser
+51 silly registry.get cb [ 304,
+51 silly registry.get   { date: 'Fri, 27 Feb 2015 00:41:36 GMT',
+51 silly registry.get     server: 'Apache',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     'last-modified': 'Fri, 27 Feb 2015 00:41:36 GMT',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     etag: '"4U91Q41SKBMFLBLVZNJ3AS7F8"',
+51 silly registry.get     age: '7',
+51 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1424997696.054215,VS0,VE1',
+51 silly registry.get     vary: 'Accept',
+51 silly registry.get     'content-length': '0',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 verbose etag https://registry.npmjs.org/body-parser from cache
+53 silly addNameRange number 2 { name: 'body-parser',
+53 silly addNameRange   range: '>=1.6.0-0 <1.7.0-0',
+53 silly addNameRange   hasData: true }
+54 silly addNameRange versions [ 'body-parser',
+54 silly addNameRange   [ '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.0.2',
+54 silly addNameRange     '1.1.0',
+54 silly addNameRange     '1.1.1',
+54 silly addNameRange     '1.1.2',
+54 silly addNameRange     '1.2.0',
+54 silly addNameRange     '1.2.1',
+54 silly addNameRange     '1.2.2',
+54 silly addNameRange     '1.3.0',
+54 silly addNameRange     '1.3.1',
+54 silly addNameRange     '1.4.0',
+54 silly addNameRange     '1.4.1',
+54 silly addNameRange     '1.4.2',
+54 silly addNameRange     '1.4.3',
+54 silly addNameRange     '1.5.0',
+54 silly addNameRange     '1.5.1',
+54 silly addNameRange     '1.5.2',
+54 silly addNameRange     '1.6.0',
+54 silly addNameRange     '1.6.1',
+54 silly addNameRange     '1.6.2',
+54 silly addNameRange     '1.6.3',
+54 silly addNameRange     '1.6.4',
+54 silly addNameRange     '1.6.5',
+54 silly addNameRange     '1.6.6',
+54 silly addNameRange     '1.6.7',
+54 silly addNameRange     '1.7.0',
+54 silly addNameRange     '1.8.0',
+54 silly addNameRange     '1.8.1',
+54 silly addNameRange     '1.8.2',
+54 silly addNameRange     '1.8.3',
+54 silly addNameRange     '1.8.4',
+54 silly addNameRange     '1.9.0',
+54 silly addNameRange     '1.9.1',
+54 silly addNameRange     '1.9.2',
+54 silly addNameRange     '1.9.3',
+54 silly addNameRange     '1.10.0',
+54 silly addNameRange     '1.10.1',
+54 silly addNameRange     '1.10.2',
+54 silly addNameRange     '1.11.0',
+54 silly addNameRange     '1.12.0' ] ]
+55 verbose addNamed [ 'body-parser', '1.6.7' ]
+56 verbose addNamed [ '1.6.7', '1.6.7' ]
+57 silly lockFile d5963813-body-parser-1-6-7 body-parser@1.6.7
+58 verbose lock body-parser@1.6.7 /Users/eduardo/.npm/d5963813-body-parser-1-6-7.lock
+59 silly lockFile d5963813-body-parser-1-6-7 body-parser@1.6.7
+60 silly lockFile d5963813-body-parser-1-6-7 body-parser@1.6.7
+61 silly lockFile aa1c4b9f-body-parser-1-6 body-parser@1.6
+62 silly lockFile aa1c4b9f-body-parser-1-6 body-parser@1.6
+63 error 404 404 Not Found: method-orverride
+63 error 404
+63 error 404 'method-orverride' is not in the npm registry.
+63 error 404 You should bug the author to publish it
+63 error 404 It was specified as a dependency of 'reqFacil'
+63 error 404
+63 error 404 Note that you can also install from a
+63 error 404 tarball, folder, or http url, or git url.
+64 error System Darwin 14.1.0
+65 error command "node" "/usr/local/bin/npm" "install" "body-parser@1.6" "method-orverride@2.1" "--save"
+66 error cwd /Users/eduardo/Documents/reqFacil
+67 error node -v v0.10.35
+68 error npm -v 1.4.28
+69 error code E404
+70 verbose exit [ 1, true ]
