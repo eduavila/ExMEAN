@@ -8,6 +8,9 @@ var  load = require('express-load');
 // importando middlewares
 
 var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var session = require('express-session');
+var passport = require('passport');
 
 module.exports = function(){
 
@@ -24,6 +27,20 @@ module.exports = function(){
 
   app.set('views','./app/views');  // seta loca das views.
 
+  //configurando passport
+
+  app.use(cookieParser());
+  app.use(session(
+    {secret:'homem evetruz',
+     resave:true,
+     saveUninitialized: true
+    }
+  ));
+
+  app.use(passport.initialize());
+  app.use(passport.session());
+
+
   // configuração body parser
 
   app.use(bodyParser.urlencoded({extended: true}));
@@ -34,6 +51,7 @@ module.exports = function(){
 
   // carrega todos os scripts
   load('models',{cwd:'app'})
+    .then('models')
     .then('controllers')
     .then('routes')
     .into(app);
