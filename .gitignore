@@ -23,3 +23,5 @@ public/min/
 public/index.html
 vendor/*
 public/fonts
+public/vendor/*
+npm-debug.log
